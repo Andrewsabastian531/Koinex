@@ -12,8 +12,12 @@ A fully responsive React application that helps crypto investors visualize and o
 
 ## 📸 Screenshots
 
-| Pre-Harvesting View | After Harvesting View |
-|---|---|
+| Pre-Harvesting View | 
+<img width="1916" height="912" alt="image" src="https://github.com/user-attachments/assets/174f07e6-767a-4a2e-a0d5-cd2d2a40fb02" />
+
+| After Harvesting View |
+<img width="1919" height="907" alt="image" src="https://github.com/user-attachments/assets/4af9bdea-32dd-41ba-8b30-fa0d9e79dac8" />
+
 | Dark card showing capital gains before selection | Blue card updating in real-time as holdings are selected |
 
 ---
@@ -178,4 +182,3 @@ Both APIs are simulated inside `src/api/mockApi.js` using `Promise` with artific
 Built for the **KoinX Frontend Intern Assignment**.
 
 - 🌐 **Live App**: [https://koinex-eosin.vercel.app/](https://koinex-eosin.vercel.app/)
-- 📋 **Assignment**: [KoinX Frontend Intern Job Description](https://koinx.notion.site/Frontend-Intern-Job-Description-c7d7fa7b8ece435a8ee0f5507ddfd174)
