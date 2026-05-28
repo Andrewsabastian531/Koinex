@@ -1,0 +1,58 @@
+.info-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: linear-gradient(135deg, #eff6ff, #f0fdf4);
+  border: 1px solid #bfdbfe;
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.info-banner-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.info-banner-content {
+  flex: 1;
+}
+
+.info-banner-text {
+  font-size: 0.8125rem;
+  color: #1e40af;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.info-banner-text strong {
+  font-weight: 700;
+  color: #1d4ed8;
+}
+
+.info-banner-text em {
+  font-style: normal;
+  color: #059669;
+  font-weight: 600;
+}
+
+.info-banner-close {
+  background: transparent;
+  border: none;
+  color: #93c5fd;
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: 4px;
+  transition: all 0.15s;
+  flex-shrink: 0;
+  line-height: 1;
+  font-family: var(--font);
+}
+
+.info-banner-close:hover {
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+}

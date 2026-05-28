@@ -1,0 +1,70 @@
+.skeleton-row td {
+  padding: 20px 16px;
+}
+
+/* Row selection pulse animation */
+tbody tr.selected {
+  animation: selectPulse 0.25s ease;
+}
+
+@keyframes selectPulse {
+  0% { background-color: #bfdbfe; }
+  100% { background-color: #eff6ff; }
+}
+
+/* Hover effect for rows */
+tbody tr:not(.skeleton-row) {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Table head checkbox alignment */
+thead th:first-child {
+  text-align: center;
+}
+
+/* Amount to sell column alignment */
+th:last-child,
+td:last-child {
+  text-align: right;
+}
+
+/* Price cell hover */
+.price-cell {
+  transition: color 0.2s;
+}
+
+tr:hover .price-cell {
+  color: var(--primary);
+}
+
+/* Responsive table scroll hint */
+@media (max-width: 768px) {
+  .table-wrapper {
+    position: relative;
+  }
+
+  .table-wrapper::after {
+    content: '→ Scroll to see more';
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-size: 0.6875rem;
+    color: var(--text-muted);
+    background: rgba(255,255,255,0.9);
+    padding: 2px 8px;
+    border-radius: 4px;
+    pointer-events: none;
+  }
+
+  .coin-name {
+    max-width: 100px;
+  }
+}
+
+/* No scrollbar hint on desktop */
+@media (min-width: 769px) {
+  .table-wrapper::after {
+    display: none;
+  }
+}

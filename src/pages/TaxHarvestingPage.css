@@ -1,0 +1,32 @@
+.topbar-title-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.topbar-subtitle {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topbar-badge--dark {
+  background: var(--bg-card-dark);
+  color: var(--text-white-muted);
+}
+
+@media (max-width: 480px) {
+  .topbar-badge--dark {
+    display: none;
+  }
+
+  .topbar-subtitle {
+    display: none;
+  }
+}
