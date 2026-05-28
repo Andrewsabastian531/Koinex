@@ -4,7 +4,9 @@ A fully responsive React application that helps crypto investors visualize and o
 
 ## 🚀 Live Demo
 
-> Deploy to Vercel/Netlify for a live link (see Deployment section below)
+**🔗 [https://koinex-eosin.vercel.app/](https://koinex-eosin.vercel.app/)**
+
+> Deployed on Vercel — loads instantly, no setup needed.
 
 ---
 
@@ -85,8 +87,8 @@ src/
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
-cd koinx
+git clone https://github.com/Andrewsabastian531/koinex.git
+cd koinex
 
 # 2. Install dependencies
 npm install
@@ -110,16 +112,24 @@ npm run preview   # Preview the production build locally
 
 ## 🚀 Deployment
 
-### Vercel (Recommended)
-```bash
-npx vercel
-```
+### ✅ Already Deployed
 
-### Netlify
-```bash
-npm run build
-# Drag and drop the `dist/` folder to app.netlify.com/drop
-```
+This app is live at **[https://koinex-eosin.vercel.app/](https://koinex-eosin.vercel.app/)** via Vercel.
+
+Every `git push` to the `main` branch automatically triggers a redeployment.
+
+### Deploy Your Own Fork
+
+1. Fork this repository
+2. Go to [vercel.com](https://vercel.com) → **Add New Project** → Import your fork
+3. Vercel auto-detects **Vite** — keep all defaults
+4. Click **Deploy** ✅
+
+| Setting | Value |
+|---|---|
+| Framework Preset | Vite |
+| Build Command | `npm run build` |
+| Output Directory | `dist` |
 
 ---
 
@@ -165,4 +175,7 @@ Both APIs are simulated inside `src/api/mockApi.js` using `Promise` with artific
 
 ## 👨‍💻 Author
 
-Built for the KoinX Frontend Intern Assignment.
+Built for the **KoinX Frontend Intern Assignment**.
+
+- 🌐 **Live App**: [https://koinex-eosin.vercel.app/](https://koinex-eosin.vercel.app/)
+- 📋 **Assignment**: [KoinX Frontend Intern Job Description](https://koinx.notion.site/Frontend-Intern-Job-Description-c7d7fa7b8ece435a8ee0f5507ddfd174)
